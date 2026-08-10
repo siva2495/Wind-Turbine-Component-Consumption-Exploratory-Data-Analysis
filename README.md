@@ -1,10 +1,5 @@
 # Wind Turbine Component Consumption — Exploratory Data Analysis
 
-<p align="center">
-  <strong>Data Science Portfolio Project</strong><br>
-  Exploratory analysis of wind turbine component consumption, turbine age and country-level consumption intensity.
-</p>
-
 ---
 
 ## 📌 Project Overview
@@ -364,72 +359,6 @@ A Power BI dashboard could provide:
 ---
 size, total consumption and consumption intensity. Applied z-score analysis and correlation analysis to identify fleet-level patterns and potential reliability indicators.
 
-### Data Science-focused version
-
-> Developed a Python-based exploratory analytics workflow for wind turbine component consumption, transforming 18K+ records into country- and fleet-level reliability metrics. Implemented feature engineering, aggregation, normalisation and statistical profiling to identify consumption patterns and establish a foundation for predictive maintenance and spare-parts analytics.
-
-### LinkedIn project description
-
-> **Wind Turbine Component Consumption — EDA ⚙️📊**
->
-> Built a Python-based exploratory data analysis workflow to investigate wind turbine component consumption across countries and turbine fleets.
->
-> Key areas:
-> • Data quality assessment and feature engineering  
-> • WTG fleet benchmarking  
-> • Consumption intensity analysis  
-> • Z-score based anomaly profiling  
-> • Turbine age vs consumption analysis  
-> • Data visualisation using Matplotlib & Seaborn  
->
-> The project establishes an analytical foundation for **wind turbine reliability, predictive maintenance and spare-parts planning**.
->
-> **Tech:** Python | Pandas | NumPy | Matplotlib | Seaborn | Jupyter
-
----
-
-# 📚 Skills Demonstrated
-
-**Data Science**
-- Exploratory Data Analysis
-- Feature Engineering
-- Statistical Analysis
-- Correlation Analysis
-- Outlier/Deviation Analysis
-- Data Aggregation
-- Data Normalisation
-
-**Python**
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter
-
-**Energy Analytics**
-- Wind turbine analytics
-- Fleet benchmarking
-- Reliability analytics
-- Maintenance analytics
-- Spare-parts consumption
-
----
-
-## ⭐ Portfolio Positioning
-
-This project is particularly relevant for roles involving:
-
-- Data Scientist — Energy
-- Data Analyst — Renewable Energy
-- Reliability Data Scientist
-- Predictive Maintenance Analyst
-- Wind Turbine Analytics
-- Asset Performance Analytics
-- Energy Data Analytics
-
-It demonstrates not only Python/EDA skills, but also the ability to **translate operational energy data into business and reliability questions**.
-
----
 
 ## 👤 Author
 
