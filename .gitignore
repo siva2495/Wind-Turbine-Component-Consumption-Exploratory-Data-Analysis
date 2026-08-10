@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+# Keep potentially sensitive source data out of Git
+/data/*.xlsx
+/data/*.xls

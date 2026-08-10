@@ -1,0 +1,19 @@
+{
+  "name": "WTG Consumption EDA",
+  "description": "Exploratory data analysis of wind turbine component consumption, fleet size, turbine age and country-level consumption intensity.",
+  "language": "Python",
+  "domain": [
+    "Wind Energy",
+    "Reliability Analytics",
+    "Predictive Maintenance"
+  ],
+  "tools": [
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "Jupyter"
+  ],
+  "dataset_records": 18517,
+  "source_data_included": false
+}
