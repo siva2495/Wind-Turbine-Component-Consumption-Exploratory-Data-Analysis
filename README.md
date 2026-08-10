@@ -5,10 +5,6 @@
   Exploratory analysis of wind turbine component consumption, turbine age and country-level consumption intensity.
 </p>
 
-<p align="center">
-  <img src="screenshots/05_country_visualisations.jpg" alt="Country-level WTG consumption visualisations" width="850">
-</p>
-
 ---
 
 ## 📌 Project Overview
@@ -366,71 +362,7 @@ A Power BI dashboard could provide:
 - Maintenance indicators
 
 ---
-
-# ⚠️ Analytical Considerations
-
-Several limitations should be considered:
-
-1. Country-level aggregation can hide WTG-level variation.
-2. Countries with very few WTGs can have unstable averages.
-3. Consumption quantity alone does not necessarily represent failure frequency.
-4. Different turbine models/components may have fundamentally different consumption patterns.
-5. Correlation does not imply causation.
-6. A future reliability model should incorporate exposure/time-at-risk rather than relying only on raw quantity.
-
-These limitations are important when translating EDA findings into operational decisions.
-
----
-
-# ▶️ Reproducing the Analysis
-
-Clone the repository:
-
-```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
-cd WTG_Consumption_EDA
-```
-
-Create an environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate it on Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Place your authorised dataset at:
-
-```text
-data/data_PitchConverter.xlsx
-```
-
-Launch Jupyter:
-
-```bash
-jupyter notebook notebooks/Consumption_EDA.ipynb
-```
-
----
-
-# 🧑‍💻 Portfolio / CV Description
-
-### Short CV version
-
-**Wind Turbine Component Consumption — Exploratory Data Analysis**  
-*Python | Pandas | NumPy | Matplotlib | Seaborn | Statistical Analysis*
-
-> Performed EDA on 18K+ wind-turbine component consumption records, engineering turbine-age and temporal features and developing country-level metrics for fleet size, total consumption and consumption intensity. Applied z-score analysis and correlation analysis to identify fleet-level patterns and potential reliability indicators.
+size, total consumption and consumption intensity. Applied z-score analysis and correlation analysis to identify fleet-level patterns and potential reliability indicators.
 
 ### Data Science-focused version
 
