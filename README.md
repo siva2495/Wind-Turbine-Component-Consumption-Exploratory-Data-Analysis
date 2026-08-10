@@ -356,9 +356,6 @@ A Power BI dashboard could provide:
 - High-risk asset identification
 - Maintenance indicators
 
----
-size, total consumption and consumption intensity. Applied z-score analysis and correlation analysis to identify fleet-level patterns and potential reliability indicators.
-
 
 ## 👤 Author
 
@@ -370,6 +367,6 @@ Data Science Practitioner | Energy & Renewable Energy Analytics
 
 ---
 
-## 📄 License
+## 📄 Note
 
-This project is released under the MIT License. The original source dataset is excluded from the repository due to potential proprietary/confidential information.
+The original source dataset is excluded from the repository due to potential proprietary/confidential information.
