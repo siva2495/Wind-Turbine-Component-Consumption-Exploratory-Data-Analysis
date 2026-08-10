@@ -49,35 +49,6 @@ Understand the distribution and characteristics of wind turbine component consum
 
 ---
 
-## 🗂️ Project Structure
-
-```text
-WTG_Consumption_EDA/
-│
-├── README.md
-├── PROJECT_NOTES.md
-├── LICENSE
-├── requirements.txt
-├── .gitignore
-│
-├── data/
-│   └── README.md
-│
-├── notebooks/
-│   └── Consumption_EDA.ipynb
-│
-└── screenshots/
-    ├── 01_data_preview.jpg
-    ├── 02_data_quality.jpg
-    ├── 03_feature_engineering.jpg
-    ├── 04_country_summary.jpg
-    ├── 05_country_visualisations.jpg
-    ├── 06_zscore_analysis.jpg
-    ├── 07_correlation_analysis.jpg
-    └── 08_notebook_workflow.jpg
-```
-
----
 
 ## 🧰 Tech Stack
 
@@ -250,78 +221,7 @@ This is applied to:
 
 ---
 
-# 📷 Analysis Screenshots
-
-## Data inspection
-
-The initial notebook workflow loads the Excel data and inspects the structure.
-
-<p align="center">
-<img src="screenshots/01_data_preview.jpg" alt="Data preview" width="850">
-</p>
-
-## Data quality
-
-The analysis checks dataset dimensions, data types and missing values before further modelling.
-
-<p align="center">
-<img src="screenshots/02_data_quality.jpg" alt="Data quality assessment" width="850">
-</p>
-
-## Feature engineering
-
-Turbine age is converted from days to years and calendar features are extracted from the consumption date.
-
-<p align="center">
-<img src="screenshots/03_feature_engineering.jpg" alt="Feature engineering" width="850">
-</p>
-
-## Country-level aggregation
-
-The notebook creates a country summary containing WTG population, total consumption and average age.
-
-<p align="center">
-<img src="screenshots/04_country_summary.jpg" alt="Country summary" width="850">
-</p>
-
-## Country comparison
-
-The analysis visualises:
-
-- Unique WTG count
-- Total consumption
-- Average turbine age
-- Consumption per turbine
-
-<p align="center">
-<img src="screenshots/05_country_visualisations.jpg" alt="Country-level visualisations" width="850">
-</p>
-
-## Statistical profiling
-
-Country-level z-scores are used to identify metrics that are unusually high or low relative to the overall country distribution.
-
-<p align="center">
-<img src="screenshots/06_zscore_analysis.jpg" alt="Z-score analysis" width="850">
-</p>
-
-## Age vs consumption
-
-A correlation analysis explores the association between average turbine age and total consumption.
-
-<p align="center">
-<img src="screenshots/07_correlation_analysis.jpg" alt="Correlation analysis" width="850">
-</p>
-
----
-
-# 🔎 Key Findings
-
-Based on the displayed analysis:
-
-### 1. Fleet size strongly influences total consumption
-
-Countries with more unique WTGs generally have greater absolute consumption. Therefore, **total consumption alone is not sufficient** for comparing country performance.
+performance.
 
 This motivated the introduction of `CI_country`, consumption per unique WTG.
 
